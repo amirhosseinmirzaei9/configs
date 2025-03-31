@@ -1,0 +1,48 @@
+[
+  {
+    "key": "ctrl+alt+n",
+    "command": "workbench.action.terminal.new",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "editor.action.organizeImports",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+c",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+u",
+    "command": "python.execInTerminal",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+p",
+    "command": "workbench.action.files.saveAll"
+  },
+  {
+    "key": "ctrl+alt+d",
+    "command": "editor.action.duplicateSelection"
+  },
+  {
+    "key": "ctrl+alt+k",
+    "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl+alt+o",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+alt+shift+t",
+    "command": "workbench.action.toggleZenMode"
+  }
+]
+
